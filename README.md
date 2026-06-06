@@ -17,7 +17,7 @@ Tout ce qui est documenté ici a été réellement exécuté, dans l'ordre, avec
 | Déploiement Hermes sur VPS (Docker, version pinnée) | ✅ fait | [docs/01-deploiement-vps.md](docs/01-deploiement-vps.md) |
 | Golden test mémoire (info restituée dans une session neuve) | ✅ validé | [docs/01-deploiement-vps.md](docs/01-deploiement-vps.md) |
 | Accès SSH par clé + raccourci bureau | ✅ fait | [docs/02-acces-ssh-raccourci.md](docs/02-acces-ssh-raccourci.md) |
-| Passerelle Telegram | 🔜 | docs/03 à venir |
+| Passerelle Telegram (bot + allowlist + golden test cross-canal) | ✅ fait | [docs/03-passerelle-telegram.md](docs/03-passerelle-telegram.md) |
 | Tunnel VPS ↔ Home Assistant à travers le CGNAT | 🔜 | docs/04 à venir |
 | Pilotage domotique + relevé des coûts API | 🔜 | docs/05 à venir |
 

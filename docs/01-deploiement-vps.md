@@ -39,11 +39,12 @@ docker run -d --name hermes \
   -p 127.0.0.1:8642:8642 \
   -p 127.0.0.1:9119:9119 \
   -v ~/.hermes:/opt/data \
-  -e HERMES_DASHBOARD=1 \
   --memory 2g --cpus 1.5 \
   nousresearch/hermes-agent:v2026.5.29.2 \
   gateway run
 ```
+
+Note : la première version de ce guide activait `-e HERMES_DASHBOARD=1`. Retiré depuis : le dashboard non authentifié polluait les logs en boucle, voir le bonus du [doc 03](03-passerelle-telegram.md).
 
 Les points qui comptent :
 
